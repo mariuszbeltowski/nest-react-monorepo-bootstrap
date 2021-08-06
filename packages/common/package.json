@@ -1,0 +1,11 @@
+{
+  "name": "@monorepo/common",
+  "version": "0.1.0",
+  "description": "Common package for monorepo",
+  "main": "index.ts",
+  "main:src": "index.ts",
+  "author": "mariuszbeltowski",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@monorepo/root",
+  "private": true, 
+  "version": "0.1.0",
+  "description": "A monorepo for React and NestJs",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "build:frontend": "yarn workspace @monorepo/frontend build",
+    "build:backend": "yarn workspace @monorepo/backend build",
+    "start:frontend": "yarn workspace @monorepo/frontend start",
+    "start:backend": "yarn workspace @monorepo/backend start",
+    "test:frontend": "yarn workspace @monorepo/frontend test"
+  },
+  "keywords": [
+    "nestjs",
+    "react",
+    "monorepo",
+    "workspaces"
+  ],
+  "author": "mariuszbeltowski",
+  "license": "ISC"
+}
